@@ -1,0 +1,322 @@
+.custom-navbar {
+  padding: 10px !important;
+}
+
+* {
+  font-family: "Manrope", sans-serif;
+}
+
+.card {
+  box-shadow: 0 0 13px rgba(145, 199, 51, 0.5);
+  border: none;
+}
+
+@media (min-width: 768px) {
+  .card-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  .card-body {
+    flex-grow: 1;
+  }
+}
+.overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+.overlay-content {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 100%;
+}
+
+.overlay-content h1 {
+  font-weight: 900;
+}
+
+.overlay-content p {
+  font-size: 20px;
+}
+
+.our-mission {
+  background-image: url("./images/hero-section-garbo-photo.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50vh;
+  margin: 100px 0;
+}
+
+@media (max-width: 740px) {
+  .title-2 {
+    font-size: 30px !important;
+  }
+  #title {
+    font-size: 35px !important;
+  }
+  .overlay-content {
+    padding: 20px !important;
+  }
+  .overlay-content h1 {
+    font-size: 30px !important;
+  }
+  .overlay-content p {
+    font-size: 16px !important;
+  }
+  .box h4,
+  .step h4 {
+    font-size: 18px !important;
+  }
+  .box p,
+  .step p {
+    font-size: 16px !important;
+  }
+  .box {
+    width: 295px;
+    height: 220px;
+    margin: 0px 20px !important;
+  }
+}
+.title-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 50px;
+  font-weight: 700;
+  background-color: #91c733;
+  height: 100px;
+  color: white;
+}
+
+.steps {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 40px 0px;
+}
+
+.step {
+  width: 60%;
+}
+
+footer {
+  padding: 30px 80px;
+  background-color: #91c733;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  flex-wrap: wrap;
+}
+
+.left {
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+}
+
+.logo-2 {
+  font-size: 22px !important;
+  margin-left: -10px;
+}
+
+i {
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  width: 35px;
+  height: 35px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.contact-icons {
+  display: flex;
+  gap: 10px;
+}
+
+.contact {
+  margin-top: 20px;
+}
+
+input,
+textarea {
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 200px;
+}
+
+.first {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+
+form span {
+  font-weight: 700;
+  color: white;
+  font-size: 14px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border: 2px solid #91c733;
+  box-shadow: 0 0 10px rgba(145, 199, 51, 0.7);
+}
+
+#sbt-btn {
+  width: 150px !important;
+  height: 45px !important;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  font-weight: 900;
+  cursor: pointer;
+}
+
+#sbt-btn:hover {
+  background-color: white;
+  color: #91c733;
+}
+
+@media (max-width: 860px) {
+  footer {
+    padding: 20px 40px;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+  .left,
+  .right {
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  .submit-container {
+    text-align: center;
+  }
+  .logo-2 {
+    font-size: 18px;
+  }
+  .first input {
+    width: 100%;
+  }
+  textarea {
+    width: 100%;
+  }
+  .left {
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    gap: 10px;
+  }
+}
+@media (max-width: 576px) {
+  input {
+    width: 280px !important;
+  }
+  footer {
+    padding: 15px 20px;
+  }
+  .contact-icons {
+    justify-content: center;
+  }
+  .contact {
+    text-align: center;
+  }
+  .submit-container {
+    text-align: center;
+  }
+  #sbt-btn {
+    width: 100% !important;
+  }
+}
+.why-garbo-container {
+  padding: 20px 0px;
+}
+
+.why-garbo-container h2 {
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.why-garbo-container span {
+  font-size: 18px;
+}
+
+.boxes {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 13px rgba(145, 199, 51, 0.5);
+  text-align: center;
+  padding: 30px;
+  width: 380px;
+  height: 250px;
+  transition: transform 0.4s ease;
+  border-radius: 12px;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form input {
+  width: 350px;
+}
+.form #sbt-btn {
+  width: 200px !important;
+}
+
+.registerForm input {
+  margin-bottom: -20px;
+}
+.registerForm span {
+  position: relative;
+  top: 10px;
+}/*# sourceMappingURL=style.css.map */
